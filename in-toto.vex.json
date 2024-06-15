@@ -1,0 +1,25 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-a7e7c69be57bc49dec9cc2f3a3e3329b12674ca53b53a53ab42134dcc0510779",
+  "author": "author@example.com",
+  "timestamp": "2024-02-03T09:33:28.913572+01:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2022-24999"
+      },
+      "timestamp": "2024-02-03T09:33:28.913574+01:00",
+      "products": [
+        {
+          "@id": "pkg:npm/express@4.17.1"
+        },
+        {
+          "@id": "pkg:npm/qs@6.7.0"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path"
+    }
+  ]
+}
